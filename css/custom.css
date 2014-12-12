@@ -35,32 +35,27 @@ h2{ color:#EB261E}
 }
 
 
-
+<style> 
+.flip
+{
+padding:5px;
+text-align:center;
+background-color:#e5eecc;
+border:solid 1px #c3c3c3;
+}
+.panel
+{
+padding:50px;
+display:none;
+}
+</style>
 
 
 footer {
-	clear:both; margin:30px; background-color:#000}
+	clear:both; margin:30px; background-color:#000;
+	text-align:center;}
 	
-	
-	
-	/* about
-	body { padding:50px; margin:auto;}*/
 
-
-
- 
-
-/*#about .btn-primary {
-color:#fff;
-background-color:#30B2CB;}
-
-#about .btn-primary:hover {
-color:#fff;
-background-color:#9F0;}
-
-#feature { background-color:#30B2CC;}
-
-#about .navbar {background:#30B2CB; width:65%; float:right; font-size: 18px}*/
 
 #about h2{ color:#42AF06}
 
@@ -70,11 +65,7 @@ background-color:#9F0;}
 
 #images img {padding:5px;}
 
- /*#social {margin:auto}
- #social a img:hover {opacity: 0.2;
-    filter: Alpha(opacity=50) }*/
 
-/* mouse over link */
 #images a:hover {opacity: 0.5;
     filter: Alpha(opacity=50)
     
