@@ -1,39 +1,45 @@
-@charset "UTF-8";
-/* CSS Document */
+$main-color:#EB261E;
+
+
 /*base*/
-body { padding:50px; margin:auto; background:#000; }
+ 
+body { padding:50px; margin:auto; background:#000;}
 
-h2{ #EB261E; }
 
-#wrapper { margin:auto; width:; }
+h2{ $main-color;}
+#wrapper { margin:auto; width:;}
 
 footer {
 	clear:both; margin:30px; background-color:#000;
 	text-align:center;}
-
-button {
+	
+	button
+{
 color:#FFF;
 padding:5px;
 text-align:center;
 background-color:#000;
-border:solid 1px #c3c3c3; }
+border:solid 1px #c3c3c3;
+}
+
+
 
 /* layout*/
+
 .items { margin:auto; padding:10px;text-align:center; }
 
-.panel {
+
+.panel
+{
 padding:50px;
 display:none;
 }
+
 
 /* Medium Devices */
 	@media(min-width:992px){
 		#wrapper {width:70%;}
 		}
-
-
-
-
 
 
 

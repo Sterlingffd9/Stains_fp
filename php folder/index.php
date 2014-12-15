@@ -16,8 +16,9 @@
     
     
   </head>
-  
- <?php include('../inc/nav.inc.php'); ?>
+  <body>
+  <div id="wrapper">
+ <?php include('includes/nav.inc.php'); ?>
     
     
     
@@ -34,7 +35,7 @@
           <h2>Welcome to Custom Stains</h2>
           <p>Here we design anything you like to put on your feet. We get as creative as you let us get in the amount of time that is required for for your Stains.<br>
 
- <br><strong>QUOTES</strong> from some famous designers that we go by:<br>
+ <br>QUOTES from some famous designers that we go by:<br>
  
  <br><em>"I firmly believe that with the right footwear one can rule the world."</em> —Bette Midler<br>
 
