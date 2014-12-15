@@ -19,7 +19,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <title>Week 8 lab</title>
+    <title>Custom Stains</title>
     
     
    
@@ -37,7 +37,7 @@
     <![endif]-->
   </head>
   
-  <div id="contact">
+  
   <body>
  
   
@@ -59,12 +59,15 @@
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-             <li><a href="sponsore.html">Sponsore</a></li>
+             <li><a href="sponsore.html">Sponsor</a></li>
             <li class="active"><a href="contact.php">Contact Us</a></li>
           </ul>
         </div>  
       </div>
     </div>
+    
+    
+    <div class="container-fluid">
     
     <div class=" col-lg-12">
      <form id="contact-form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
@@ -78,9 +81,11 @@
 					<input type="email" id="email" name="email" value="<?php echo @$email ?>" class="email required" required />
 				</p>
 				<p>
-					<label for="message">Message:</label><?php echo @$message_error; ?>
-					<textarea cols="45" rows="7" id="message" name="message" class="required"><?php echo @$message ?></textarea>
+					<label for="message">Message:</label>
 				</p>
+				<p><?php echo @$message_error; ?>
+				  <textarea cols="45" rows="7" id="message" name="message" class="required"><?php echo @$message ?></textarea>
+			  </p>
 				<input name="submitted" type="submit" value="Send" />
 			</fieldset>
 		</form>
@@ -90,13 +95,14 @@
     
      <footer>
      
-<p> <img src="logo.png"  class="img-responsive" ></p>
+ <img src="logo.png"  class="img-responsive" >
       </footer>
     
   
     
     
     
+    </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

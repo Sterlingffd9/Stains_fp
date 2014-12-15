@@ -10,14 +10,14 @@
    
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
     
   </head>
   
   
- <?php include('inc/nav.inc.php'); ?>
+ <?php include('../inc/nav.inc.php'); ?>
     
     
     
@@ -46,7 +46,7 @@
        
        
         <div class="col-xs-12  col-md-12 col-lg-12">
-          <img src="tim4.png"  alt="tims" 
+          <img src="../tim4.png"  alt="tims" 
            class="img-responsive">
          </div>
           
@@ -61,7 +61,7 @@
     </div> <!-- /container -->
      <footer>
      
- <img src="logo.png"  class="img-responsive" >
+ <img src="../logo.png"  class="img-responsive" >
       </footer>
     
     
@@ -71,7 +71,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
   </div>
 </html>

@@ -14,12 +14,12 @@ h2{ color:#EB261E}
 .items { margin:auto; padding:10px;text-align:center; }
 
 button
-{margin:10px;
+{
 color:#FFF;
 padding:5px;
 text-align:center;
 background-color:#000;
-border:solid 1px #F00;
+border:solid 1px #c3c3c3;
 }
 .panel
 {
@@ -35,6 +35,8 @@ footer {
 	
 		
 		
+
+
 /* Medium Devices */
 	@media(min-width:992px){
 		#wrapper {width:70%;}
